@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="pixi.min.js"></script>
+<meta charset="UTF-8">
+<title>Endless dungeon</title>
+</head>
+<body>
+<script type="text/javascript">
+    let type = "WebGL"
+    if(!PIXI.utils.isWebGLSupported()){
+      type = "canvas"
+    }
+
+    PIXI.utils.sayHello(type)
+  </script>
+</body>
+</html>
